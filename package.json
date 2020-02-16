@@ -7,7 +7,7 @@
     "dev": "next",
     "build": "next build",
     "start": "next start",
-    "export": "next build && next export"
+    "deploy": "next build && next export -o docs && touch docs/.nojekyll && git add docs && git commit -m \"deploy script\" && git push origin master"
   },
   "author": "",
   "license": "ISC",
