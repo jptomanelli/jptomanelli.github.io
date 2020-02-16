@@ -36,16 +36,16 @@ function HomePage() {
         <a
           target="_blank"
           rel="noopener noreferrer"
-          href="https://drive.google.com/file/d/1GYmUBbBQIN5veHrlYhmQGVAyugyeTNBE/view?usp=sharing"
+          href="https://twitter.com/john_tomanelli"
         >
-          résumé
+          twitter
         </a>
         <a
           target="_blank"
           rel="noopener noreferrer"
-          href="https://twitter.com/john_tomanelli"
+          href="https://drive.google.com/file/d/1GYmUBbBQIN5veHrlYhmQGVAyugyeTNBE/view?usp=sharing"
         >
-          twitter
+          résumé
         </a>
       </div>
     </div>
