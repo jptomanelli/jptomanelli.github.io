@@ -10,3 +10,11 @@ body {
 a {
   color: #000;
 }
+
+a, img, div, h1, h2 {
+  transition: opacity 250ms ease;
+}
+
+.hidden {
+  opacity: 0;
+}
