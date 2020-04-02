@@ -1,0 +1,1 @@
+self.__BUILD_MANIFEST = (function(a){return {"/":[a],"/index":[a],"/projects":["static\u002Fcss\u002Fb828333d79dd7c4fb8fe.css"]}}("static\u002Fcss\u002Fa64f70bba792c24b84a2.css"));self.__BUILD_MANIFEST_CB && self.__BUILD_MANIFEST_CB()
