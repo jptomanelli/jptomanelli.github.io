@@ -1,9 +1,15 @@
 import React from "react";
 import { NextSeo } from "next-seo";
 
-import "../styles.css";
-
 export default function MyApp({ Component, pageProps }) {
+  if (pageProps.css && pageProps.css.includes("mapbox")) {
+    require("../mapboxStyle.css");
+  } 
+  
+  if (pageProps.css && pageProps.css.includes("default"))  {
+    require("../styles.css");
+  }
+
   return (
     <>
       <NextSeo
@@ -13,4 +19,4 @@ export default function MyApp({ Component, pageProps }) {
       <Component {...pageProps} />
     </>
   );
-};
+}

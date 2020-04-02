@@ -1,0 +1,23 @@
+
+
+.ul {
+    margin-top: 115px;
+    padding: 0;
+}
+
+.ul li {
+    margin: 15px 0;
+}
+
+@media(max-width: 650px) {
+    .ul {
+        margin-top: 50px;
+    }
+    .hideOnMobile {
+        display: none;
+    }
+
+    .marginOnMobile {
+        margin: auto 22px;
+    }
+}

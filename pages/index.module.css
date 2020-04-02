@@ -1,13 +1,24 @@
 .small_container {
-    opacity: 1;
-    margin: 0 auto;
     max-width: 340px;
+}
+
+.center {
+    margin: 0 auto;
+}
+
+.flex_split {
+    display: flex;
+    justify-content: space-evenly;
 }
 
 .title {
     font-size: 2.7rem;
     font-weight: 200;
     margin: 10px 0;
+}
+
+.title:hover {
+    cursor: pointer;
 }
 
 .sub {
@@ -32,4 +43,17 @@
     justify-content: space-between;
     margin: 25px 0 0;
     font-weight: 200;
+}
+
+.divider {
+    width: 1px;
+    background: #999999;
+}
+
+
+@media(max-width: 650px) {
+    .flex_split {
+        display: flex;
+        flex-direction: column;
+    }
 }
